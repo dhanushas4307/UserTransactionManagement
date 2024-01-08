@@ -33,3 +33,7 @@ List of Api Uri
 * http://localhost:8080/transaction ---> create transaction for the user specified in the request body.
 * http://localhost:8080/accounts  ----> create user account.
 * http://localhost:8080/accounts/{accountId}  ---> get the user account details.
+
+
+For Example snapshot please do refer below 
+https://github.com/dhanushas4307/UserTransactionManagement/tree/main/src/main/resources/TestSamples
