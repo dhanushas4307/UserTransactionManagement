@@ -3,11 +3,9 @@ A Bank account transactions microservice with Spring Boot. This microservice is 
 
 Users can deposit and withdraw money from their accounts by providing a CurrencyType:
 
-public enum CurrencyType 
-
+enum CurrencyType 
 {
-   CREDIT, DEBIT
-
+CREDIT, DEBIT
 }
 
 All transactions will be executed with proper isolation level.
