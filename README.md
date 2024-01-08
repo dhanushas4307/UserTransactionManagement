@@ -4,9 +4,9 @@ https://api.fxratesapi.com/latest
 
 Under this project also handle the multiple currency type transactions for the users.
 
-Users can deposit and withdraw money from their accounts by providing a CurrencyType:
+Users can deposit and withdraw money from their accounts by providing a TransactionType:
 
-enum CurrencyType 
+enum TransactionType 
 {
 CREDIT, DEBIT
 }
