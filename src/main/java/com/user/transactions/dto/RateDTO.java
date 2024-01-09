@@ -15,12 +15,4 @@ import java.util.Map;
 public class RateDTO {
     @JsonProperty("rates")
     private Map<String, BigDecimal> currencyDTOList;
-
-//    public RateDTO(@JsonProperty("rates") Map<String, BigDecimal> currencyDTOList) {
-//        this.currencyDTOList = currencyDTOList;
-//    }
-//
-//    public Map<String, BigDecimal> getCurrencyDTOList() {
-//        return this.currencyDTOList;
-//    }
 }
